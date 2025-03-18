@@ -1,4 +1,55 @@
+/* Style the navigation bar */
 nav {
     background-color: darkblue;
+    padding: 10px;
+}
+
+/* Style navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* Limit the width of the main section */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the aside section */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Ensure the new aside image has correct styling */
+aside img {
+    width: 200px;
+    height: auto; /* Prevents distortion */
+}
+
+/* Ensure profile image does not affect other images */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Remove padding from paragraphs */
+p {
+    padding: 0;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px; /* Adds space between content and footer */
+    border-top: 2px solid black; /* Adds visual distinction */
+    text-align: center; /* Centers footer text */
     padding: 10px;
 }
