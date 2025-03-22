@@ -18,6 +18,25 @@ main {
     margin: 0 auto;
 }
 
+/* Style h1 */
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Style all images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure profile image does not affect other images */
+main img {
+    width: 150px;
+    height: auto;
+}
+
 /* Style the aside section */
 aside {
     width: 300px;
@@ -32,12 +51,6 @@ aside {
 /* Ensure the new aside image has correct styling */
 aside img {
     width: 200px;
-    height: auto; /* Prevents distortion */
-}
-
-/* Ensure profile image does not affect other images */
-main img {
-    width: 150px;
     height: auto;
 }
 
@@ -48,8 +61,8 @@ p {
 
 /* Footer styling */
 footer {
-    margin-top: 20px; /* Adds space between content and footer */
-    border-top: 2px solid black; /* Adds visual distinction */
-    text-align: center; /* Centers footer text */
+    margin-top: 20px;
+    border-top: 2px solid black;
+    text-align: center;
     padding: 10px;
 }
