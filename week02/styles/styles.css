@@ -29,6 +29,8 @@ h1 {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Ensure profile image does not affect other images */
@@ -52,11 +54,16 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-/* Remove padding from paragraphs */
+/* Paragraph styling */
 p {
     padding: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
 }
 
 /* Footer styling */
@@ -65,4 +72,6 @@ footer {
     border-top: 2px solid black;
     text-align: center;
     padding: 10px;
+    background-color: #f4f4f4;
+    color: #333;
 }
